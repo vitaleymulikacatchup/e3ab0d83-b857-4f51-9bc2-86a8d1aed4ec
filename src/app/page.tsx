@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -9,9 +9,9 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import TeamCardThree from '@/components/sections/team/TeamCardThree';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
-import { Star, Sparkles, Heart, Waves, Utensils, Home, MessageCircle, Users, HelpCircle, Phone, Linkedin, Mail, Instagram, Twitter } from 'lucide-react';
+import { Star, Sparkles, Heart, Waves, Utensils, HouseIcon, MessageCircle, Users, HelpCircle, Phone, Linkedin, Mail, Instagram, Twitter } from 'lucide-react';
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="slide-background"
@@ -83,7 +83,7 @@ export default function Home() {
           title="Luxury Accommodations"
           description="Choose from our selection of elegantly appointed rooms and suites, each designed for ultimate comfort."
           tag="Book Direct & Save"
-          tagIcon={Home}
+          tagIcon={HouseIcon}
           products={[
             {
               id: "deluxe",
